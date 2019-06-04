@@ -1,0 +1,56 @@
+/* div {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background: red;
+    font-size: 48px;
+    text-align: center;
+    transition: all 1s;
+}
+
+div:hover {
+    transition: all 1s;
+    font-size: 90px;
+    transform: rotate(180deg);
+    background: green;
+} */
+
+.btn {
+    cursor: pointer;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border:0;
+    border-radius: 4px;
+    background-color: rgb(0, 123, 255);
+    /* height: 38px; */
+    /* width: 50px; */
+    /* transition: all 1.5s; */
+}
+
+.btn:hover {
+    
+}
+
+.danger {
+    background-color: rgb(220, 53, 69);
+}
+
+.danger:hover {
+    transition: all 1.25s;
+    /* color: black; */
+    background-color: #af2532;
+}
+
+.success {
+    background-color: rgb(40, 167, 69);
+}
+
+.success:hover {
+    transition: all 1.25s;
+    /* color: black; */
+    background-color: #1c7c30;
+    padding: 10px 25px;
+}
+
