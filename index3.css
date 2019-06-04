@@ -1,0 +1,73 @@
+header {
+    background: silver;
+    padding: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header li {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.product {
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+    background: url("https://brain-images-ssl.cdn.dixons.com/2/0/10157702/u_10157702.jpg") no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background: #555;
+    color: white;
+}
+
+@media (min-width: 1000px) {
+    header {
+        font-size: 24px;
+        background-color: red;
+        transition: all 1s;
+    }
+
+    .product {
+        height: 200px;
+        width: 200px;
+        transition: all 1s;
+    }
+}
+
+/* remember, you can add multiple breakpoints
+with multiple resolutions, sometimes even combined!!!
+@media (min-width: 650px) and (max-width: 999px) {
+    .responsive-div {
+      background-color: green;
+    }
+  } */
+
+/* breakpoint */
+@media (min-width: 1500px) {
+    header {
+        font-size: 30px;
+        background-color: blue;
+        transition: all 1s;
+    }
+
+    .product {
+        height: 300px;
+        width: 300px;
+        transition: all 1s;
+    }
+}
