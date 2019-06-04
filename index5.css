@@ -1,0 +1,30 @@
+.main-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: red;
+    /* height: 90vh; */
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.flex-container {
+    display: flex;
+    /* this is for the cross axis */
+    align-items: center;
+    /* this is for the main axis */
+    justify-content: space-evenly;
+    background: #f8e8c0;
+    /* width: 525px; */
+    height: 320px;
+    border-radius: 20px;
+}
+
+.flex-item {
+    background: #c6e6fe;
+    width: 150px;
+    height: 135px;
+    border-radius: 20px;
+}
