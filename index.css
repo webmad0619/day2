@@ -27,6 +27,8 @@ div:hover {
     /* height: 38px; */
     /* width: 50px; */
     /* transition: all 1.5s; */
+    width: 50px;
+    height: 50px;
 }
 
 .btn:hover {
@@ -38,9 +40,12 @@ div:hover {
 }
 
 .danger:hover {
-    transition: all 1.25s;
+    /* transition: width 2s ease-in 1s, height 4s, background-color 6s; */
     /* color: black; */
     background-color: #af2532;
+    /* width: 200px;
+    height: 100px; */
+    
 }
 
 .success {
